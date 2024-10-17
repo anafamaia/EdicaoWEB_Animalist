@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animalist | Contactos</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../index.html">
+          <img
+            class="logotipo"
+            src="../imagens/ANIMALIST_logo.png"
+            alt="logo"
+          />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="sobre-nos.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="#">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="principal-contactos">
+        <div class="formulario">
+          <form>
+            <h2 class="form-titulo">Formulário de Contacto</h2>
+            <div class="form-motivo">
+              <label class="form-label">
+                Por favor, seleciona o motivo.<span class="obrigatorio">*</span>
+              </label>
+              <select class="input-box-motivos" name="motivo">
+                <option value="saber">Quero saber mais</option>
+                <option value="onde">Onde está o meu pedido</option>
+                <option value="modificar">Quero modificar o meu pedido</option>
+                <option value="duvidas">
+                  Dúvidas sobre um produto ou serviço
+                </option>
+                <option value="incorreto">
+                  O meu pedido chegou de forma incorreta
+                </option>
+                <option value="cancelar">Quero cancelar o meu pedido</option>
+              </select>
+            </div>
+            <div class="form-nome">
+              <label class="form-label" for="nome"
+                >Nome<span class="obrigatorio">*</span>
+              </label>
+              <input
+                class="input-box"
+                type="text"
+                name="nome"
+                id="nome"
+                required
+              />
+            </div>
+            <div class="form-email">
+              <label class="form-label" for="email"
+                >Email<span class="obrigatorio">*</span></label
+              >
+              <input
+                class="input-box"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+            <div class="form-telefone">
+              <label class="form-label" for="telefone">Telefone</label>
+              <input
+                class="input-box"
+                type="number"
+                name="telefone"
+                id="telefone"
+              />
+            </div>
+            <div class="form-encomenda">
+              <label class="form-label" for="encomenda"
+                >Número da Encomenda
+              </label>
+              <input
+                class="input-box"
+                type="text"
+                name="encomenda"
+                id="encomenda"
+              />
+            </div>
+            <div class="form-mensagem">
+              <label class="form-label"
+                >Mensagem<span class="obrigatorio">*</span></label
+              >
+              <textarea
+                class="input-box-mensagem"
+                name="mensagem"
+                rows="10"
+                cols="40"
+                placeholder="Escreve aqui a tua mensagem"
+              >
+              </textarea>
+            </div>
+            <div class="input-box-check">
+              <input type="checkbox" name="privacidade" />
+              <label>
+                Li e Aceito a
+                <a
+                  class="link-politica-priv"
+                  href="cookies.html"
+                  target="_blank"
+                  >Política de Privacidade</a
+                >.<span class="obrigatorio">* </span>
+              </label>
+            </div>
+            <p class="campos-obrigatorios">* Estes campos são obrigatórios</p>
+            <br />
+            <input
+              class="input-box-submit"
+              type="submit"
+              name="enviar"
+              value="Enviar"
+            />
+          </form>
+        </div>
+        <div class="contactar">
+          <div class="morada">
+            <h3>Encontra-nos</h3>
+            <a
+              class="links-contactar"
+              href="https://maps.app.goo.gl/Aq1myrmLdDorqtRo9"
+              target="_blank"
+            >
+              Av. Dr. António Macedo 196 <br />
+              4450-617 Leça da Palmeira
+            </a>
+          </div>
+          <div class="contactos">
+            <h3>Contacta-nos</h3>
+            <a class="links-contactar" href="mailto:info@animalist.pt"
+              >info@animalist.pt</a
+            >
+            <br />
+            <a class="links-contactar" href="tel:222333444">222 333 444</a>
+            <span>(chamada para rede fixa nacional)</span>
+            <br />
+            <p class="bold">Horário de funcionamento</p>
+            <p>Dias úteis e Sábados: 10h-19h</p>
+          </div>
+          <div class="redes-sociais">
+            <h3>Segue-nos</h3>
+            <a class="facebook" href="https://www.facebook.com" target="_blank">
+              <img
+                class="facebookimg"
+                src="../imagens/facebook.png"
+                alt="facebook"
+              />
+            </a>
+            <a
+              class="instagram"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <img
+                class="instagramimg"
+                src="../imagens/instagram.webp"
+                alt="instagram"
+              />
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com" target="_blank">
+              <img
+                class="linkedinimg"
+                src="../imagens/linkedin.webp"
+                alt="linkedin"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="conteudo-footer">
+        <div class="coluna-footer1">
+          <h3 class="footer-titulos">Sobre nós</h3>
+          <p>
+            A ANIMALIST é uma empresa focada no bem estar do teu melhor amigo de
+            4 patas. Fornecemos alimentação natural, feita com ingredientes de
+            qualidade dos nossos produtores locais. Uma alimentação feita à
+            medida para o teu patudo.
+          </p>
+        </div>
+        <div class="coluna-footer2">
+          <h3 class="footer-titulos">Contacte-nos</h3>
+          <a href="mailto:info@animalist.pt">info@animalist.com</a><br />
+          <a href="tel:222333444">222 333 444</a>
+          <span>(chamada para rede fixa nacional)</span>
+        </div>
+        <div class="coluna-footer3">
+          <h3 class="footer-titulos">Informações</h3>
+          <ul>
+            <li>
+              <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank"
+                >Livro de Reclamações Online</a
+              >
+            </li>
+            <li>
+              <a href="termos.html" target="_blank">Termos e Condições</a>
+            </li>
+            <li>
+              <a href="cookies.html" target="_blank"
+                >Política de Privacidade e Cookies</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="direitos">
+          <p class="direitos-texto">Website feito com ❤️ por Ana Filipa Maia</p>
+          <p class="direitos-texto">©2024. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
